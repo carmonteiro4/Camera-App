@@ -1,0 +1,373 @@
+{
+    "data": {
+        "project": {
+            "apiComponents": {
+                "ApiContainer": {
+                    "id": "ApiContainer",
+                    "children": []
+                }
+            },
+            "assets": {
+                "65b27f6182c76131eb1d48c7": {
+                    "externalStorageType": "GCS",
+                    "_id": "65b27f6182c76131eb1d48c7",
+                    "size": "53614",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "305soft-high-resolution-logo-color-on-transparent-background.png",
+                    "backendURI": "/project/65b186f567db1a7c7cdad78b/getasset/65b27f6182c76131eb1d48c7",
+                    "name": "305soft-high-resolution-logo-color-on-transparent-background.png",
+                    "externalName": "users/65b02f63430cad0dd035d02b/projects/65b186f567db1a7c7cdad78b/assets/65b27f6182c76131eb1d48c7",
+                    "createdAt": "2024-01-25T15:33:53.930Z",
+                    "updatedAt": "2024-01-25T15:33:53.930Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b02f63430cad0dd035d02b/projects/65b186f567db1a7c7cdad78b/assets/65b27f6182c76131eb1d48c7?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240205%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240205T171355Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=6f80a970ee4ecf49d0aa0708bbea54cedc9a6f5b6a6840fe4855f548e3ab0b2b604521b78f2e96a298b850bd248268f1332565ad403f61f8ee9c419dd6fde8585146f28a78ea6971f7d86d5a68ddfdf64db86b6b19eda5200f3bc97fd36a8074fa99432698fc5297b7218c5d9b6125da3f8ab0d6cf89f54970169a1d0df24a545c2c5da415348c2b5cc8b6536ffa714542df9058f26ea4d686b8e5c842a0479dd8164e81c3f4a2abe56cfc8a0bcca6950b73bea5a08c96eb3df99cd1db9188f2b2cb7219f0931e9058ccd720eaeea922c8fad8c307cd9cbfd5ceb4f7094e894bc28957f7e1a67ec9cc52a6e1f75080bfd3c15fc9eaf52f2dfd7417ebad27663d",
+                    "signedUrlExpirationTime": 1707326035604
+                }
+            },
+            "backendUpgradeVersion": 24,
+            "blockly": {
+                "eb5634e5-8b60-42e4-839b-51239b00dcc7": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
+                            }
+                        ]
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "6dc669ea-a869-44f8-a06a-3272f23e8a71": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA",
+                            "android.permission.RECORD_AUDIO"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSMicrophoneUsageDescription",
+                                "label": "Microphone",
+                                "hint": "Describe why your app uses the microphone."
+                            }
+                        ]
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                }
+            },
+            "categories": [
+                "Photo & Video"
+            ],
+            "components": {
+                "children": [
+                    {
+                        "id": "eb5634e5-8b60-42e4-839b-51239b00dcc7"
+                    },
+                    {
+                        "id": "6dc669ea-a869-44f8-a06a-3272f23e8a71"
+                    }
+                ]
+            },
+            "figmaComponents": {},
+            "description": null,
+            "icon": null,
+            "projectName": "Camera App",
+            "settings": {
+                "teamId": null,
+                "appName": null,
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": null,
+                "firebaseDatabaseURL": null,
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "projectSettings": {
+                "teamId": null,
+                "appName": null,
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": null,
+                "firebaseDatabaseURL": null,
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "hasAdmob": false,
+            "hasBluetoothLowEnergy": null,
+            "hasPushNotification": false,
+            "hasAssistant": null,
+            "dataSourceLinks": [],
+            "localDataSources": [
+                {
+                    "id": "08201d99-90dd-45b3-b681-5453d34e1c29",
+                    "dataSource": {
+                        "id": "28e07878-b520-401c-a6f4-557d1a562f50",
+                        "name": "time",
+                        "owner": "65b02f63430cad0dd035d02b",
+                        "collections": [
+                            {
+                                "id": "bb5b6023-9e9c-47af-afc9-052b6d25128a",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "e1b3e13a-8eb2-497c-a370-9826d79a71f1",
+                                        "name": "column1",
+                                        "label": "seconds",
+                                        "type": "STRING"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "5d68263d-a17e-4ab2-ba90-6f8e084ec79e",
+                                            "node": {
+                                                "id": "42d624ad-397e-4776-b4e8-55073c9dab6d",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "e1b3e13a-8eb2-497c-a370-9826d79a71f1",
+                                                        "value": "1"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "8070ec0c-ebef-42d8-bfe0-8c11cd7b16f6",
+                                            "node": {
+                                                "id": "f181773d-eb26-4da1-8d31-603f9a33b1ed",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "e1b3e13a-8eb2-497c-a370-9826d79a71f1",
+                                                        "value": "2"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "ba413b92-8437-421b-b339-fc366de5d938",
+                                            "node": {
+                                                "id": "40d69d85-f5b3-45ab-a0f5-9b6415901d64",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "e1b3e13a-8eb2-497c-a370-9826d79a71f1",
+                                                        "value": "3"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "f7a9a042-3bd8-4226-8d38-217e169862f7",
+                                            "node": {
+                                                "id": "465c692e-a84c-4e0f-8207-d5163ccfe41d",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "e1b3e13a-8eb2-497c-a370-9826d79a71f1",
+                                                        "value": "4"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "1c8c0ad5-cda4-4e98-920d-3910127fbed7",
+                                            "node": {
+                                                "id": "d9e609fe-7ae9-4436-ad24-ad53c6af2922",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "e1b3e13a-8eb2-497c-a370-9826d79a71f1",
+                                                        "value": "5"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "7333f63b-03b6-4a61-9840-fe566728b3ad",
+                                            "node": {
+                                                "id": "1748014b-46d1-43de-be63-14af2e63b8f2",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "e1b3e13a-8eb2-497c-a370-9826d79a71f1",
+                                                        "value": "6"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "832c0435-0ed9-4efd-aaaf-98cf4296df55",
+                                            "node": {
+                                                "id": "15c56e4a-47f3-42b3-b477-707f48e3c788",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "e1b3e13a-8eb2-497c-a370-9826d79a71f1",
+                                                        "value": "7"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "b2100d9f-ede8-411f-9ade-98bb0ee901f8",
+                                            "node": {
+                                                "id": "390c085d-dd7c-4321-8e58-593434c0c39a",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "e1b3e13a-8eb2-497c-a370-9826d79a71f1",
+                                                        "value": "8"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "30a3c107-7b81-4122-aa33-649e401fe1b6",
+                                            "node": {
+                                                "id": "d44048d3-4c0c-46fc-9a79-fb400e7dea83",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "e1b3e13a-8eb2-497c-a370-9826d79a71f1",
+                                                        "value": "9"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "cb59a185-fd0e-456a-90df-5f434840eae4",
+                                            "node": {
+                                                "id": "4bfc6975-766f-4ea7-8280-48385238242e",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "e1b3e13a-8eb2-497c-a370-9826d79a71f1",
+                                                        "value": "10"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "ef500291-4fc0-4ffd-8965-8bda4dc2ded7",
+                            "name": "time",
+                            "owner": "65b02f63430cad0dd035d02b",
+                            "type": "LOCAL"
+                        }
+                    }
+                }
+            ],
+            "customProperties": [],
+            "modules": [],
+            "usesDragDropUi": true,
+            "totalCopy": "0",
+            "totalStar": "0",
+            "starAction": "star",
+            "variables": {
+                "9e727ce5-b431-44c6-aa91-e373a0c84900": {
+                    "scope": "APP",
+                    "name": "sec",
+                    "screenId": "eb5634e5-8b60-42e4-839b-51239b00dcc7"
+                }
+            },
+            "defaultDesignerDevice": "PHONE",
+            "defaultDesignerOrientation": "PORTRAIT",
+            "schemaVersion": 2,
+            "organization": null,
+            "__typename": "Project"
+        }
+    }
+}
