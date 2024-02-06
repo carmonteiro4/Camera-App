@@ -59,6 +59,60 @@
     },
     "children": [
         {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Voice Confirm",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "Font": "",
+                "CustomFont": "",
+                "BackgroundColor": "rgba(155, 155, 155, 1)",
+                "Height": 42,
+                "Width": 91,
+                "Visible": true,
+                "X": 275,
+                "Y": 387,
+                "RelativeX": 275,
+                "RelativeY": 387,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "70.13332926432291%",
+                    "top": "53.07346326836582%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "eb5634e5-8b60-42e4-839b-51239b00dcc7",
+                "position": "absolute",
+                "edgeOffsets": 387
+            },
+            "children": [],
+            "id": "a0c551c5-32e7-438e-a963-958984b7e251",
+            "thunkableVersion": 444,
+            "name": "Voice_button"
+        },
+        {
             "type": "List Viewer",
             "translatedName": "Simple List",
             "reactType": "ListView",
@@ -490,7 +544,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "305soft-high-resolution-logo-color-on-transparent-background.png",
+                "Picture": "305soft-high-resolution-logo-black-on-transparent-background.png",
                 "resizeMode": "stretch",
                 "Height": 47,
                 "Width": 53,
@@ -671,13 +725,13 @@
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "contain",
-                "Height": 269,
-                "Width": 10,
+                "Height": 271,
+                "Width": 360,
                 "Visible": true,
-                "X": 13.800000190734863,
-                "Y": 45.79999923706055,
-                "RelativeX": 13.800000190734863,
-                "RelativeY": 45.79999923706055,
+                "X": 14.600000381469727,
+                "Y": 46.60000228881836,
+                "RelativeX": 14.600000381469727,
+                "RelativeY": 46.60000228881836,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -704,7 +758,7 @@
                 "capInsets": {},
                 "ParentId": "eb5634e5-8b60-42e4-839b-51239b00dcc7",
                 "position": "absolute",
-                "edgeOffsets": 45.79999923706055
+                "edgeOffsets": 46.60000228881836
             },
             "children": [],
             "id": "6189d2f6-2e75-41c8-9632-3650098f60a7",
